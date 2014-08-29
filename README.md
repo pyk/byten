@@ -9,7 +9,7 @@ $ go get github.com/pyk/byten
 ```
 and import package into your project
 ```
-import "byten"
+import "github.com/pyk/byten"
 ```
 then bite the bytes!
 ```
