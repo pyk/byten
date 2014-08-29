@@ -17,11 +17,9 @@ byten.Size(1024) # => 1.0KB
 ```
 easy huh? =))
 
-browse more example [here](#)
-
 ### Docs
 
-Nothing fancy, but you can see [here](#)
+Nothing fancy, but you can see [here](https://sourcegraph.com/github.com/pyk/byten)
 
 ### License
 MIT License
