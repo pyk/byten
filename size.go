@@ -10,21 +10,25 @@ func index(s int64) float64 {
 	return math.Floor(x)
 }
 
+func countSize(s int64, i float64) float64 {
+	return float64(s) / math.Pow(1024, math.Floor(i))
+}
+
 // Size return a formated string from file size
 //
-// Size(6314666666666665984) # => 5.5EB
-func Size(size int64) string {
+//     Size(6314666666666665984) # => 5.5EB
+func Size(s int64) string {
 
 	symbols := []string{"B", "KB", "MB", "GB", "TB", "PB", "EB"}
-	if size < 10 {
-		return fmt.Sprintf("%dB", size)
+	i := index(s)
+	if s < 10 {
+		return fmt.Sprintf("%dB", s)
 	}
-	i := index(size)
-	val := float64(size) / math.Pow(1024, math.Floor(i))
-	f := "%.0f"
-	if val < 10 {
-		f = "%.1f"
+	size := countSize(s, i)
+	format := "%.0f"
+	if size < 10 {
+		format = "%.1f"
 	}
 
-	return fmt.Sprintf(f+"%s", val, symbols[int(i)])
+	return fmt.Sprintf(format+"%s", size, symbols[int(i)])
 }
