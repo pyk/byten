@@ -14,6 +14,9 @@ import "github.com/pyk/byten"
 then bite the bytes!
 ```
 byten.Size(1024) # => 1.0KB
+byten.Size(206848) # => 202KB
+byten.Size(10239999998976) # => 9.3TB
+byten.Size(6314666666666665984) # => 5.5EB
 ```
 easy huh? =))
 
