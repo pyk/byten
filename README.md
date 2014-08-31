@@ -1,7 +1,10 @@
 byten
 =====
-Bit the size of file and turn it into human readable format. Another weekend project by [pyk](http://google.com/+bayualdiyansyah).
+Bit the size of file and turn it into human readable format. 
 
+This is a Go Package that convert size of file into human readable format.
+
+Another weekend project by [pyk](http://google.com/+bayualdiyansyah).
 ### Usage
 First thing first, get the remote package
 ```
@@ -22,7 +25,7 @@ easy huh? =))
 
 ### Docs
 
-Nothing fancy, but you can see [here](https://sourcegraph.com/github.com/pyk/byten)
+Nothing fancy, but you can see [here](https://godoc.org/github.com/pyk/byten)
 
 ### License
 MIT License
