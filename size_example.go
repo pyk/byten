@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func ExampleSize_SizeOfCurrentFile() {
+func ExampleSize_sizeOfCurrentFile() {
 	// get FileInfo
 	file, err := os.Stat("size_example.go")
 	if err != nil {
