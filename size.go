@@ -15,8 +15,6 @@ func countSize(s int64, i float64) float64 {
 }
 
 // Size return a formated string from file size
-//
-//     Size(6314666666666665984) # => 5.5EB
 func Size(s int64) string {
 
 	symbols := []string{"B", "KB", "MB", "GB", "TB", "PB", "EB"}
