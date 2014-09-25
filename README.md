@@ -28,4 +28,4 @@ easy huh? =))
 Nothing fancy, but you can see [here](https://godoc.org/github.com/pyk/byten)
 
 ### License
-MIT License
+[MIT License](https://github.com/pyk/byten/blob/master/LICENSE)
